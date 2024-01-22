@@ -17,6 +17,7 @@ a {
 }
 
 .header-page {
+    position: relative;
     background: #181818;
     height: 124px;
     border-top-left-radius: 10px;
@@ -98,6 +99,7 @@ a {
 
 
 .main-page {
+    position: relative;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -106,11 +108,12 @@ a {
 .wrapper-main {
     margin: 0 auto;
     width: 1860px;
-    height: 966px;
+    height: 1100px;
+    border-end-end-radius: 36px;
     background-image: url(../img/fon1.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
+    // background-size: auto 996px;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .title-main {
@@ -178,7 +181,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     width: 1320px;
-    height: 271px;
+    height:271px;
     margin: 0 auto;
     background: #FFF;
     border-radius: 20px;
@@ -263,7 +266,9 @@ a {
     background: var(--main, linear-gradient(67deg, #9F7437 9.19%, #E3D293 92.03%));
 }
 
-
+.product-page {
+    display: block;
+}
 
 
 

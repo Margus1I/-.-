@@ -17,7 +17,7 @@ a {
 }
 
 .header-page {
-  background: #181818;
+    background: #181818;
   height: 124px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -95,6 +95,7 @@ a {
 }
 
 .main-page {
+  position: relative;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -103,11 +104,11 @@ a {
 .wrapper-main {
   margin: 0 auto;
   width: 1860px;
-  height: 966px;
+  height: 1100px;
+  border-end-end-radius: 36px;
   background-image: url(../img/fon1.png);
-  background-size: cover;
-  background-position: center;
-  position: absolute;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .title-main {
@@ -256,4 +257,8 @@ a {
   border: none;
   border-radius: 10px;
   background: var(--main, linear-gradient(67deg, #9F7437 9.19%, #E3D293 92.03%));
+}
+
+.product-page {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
